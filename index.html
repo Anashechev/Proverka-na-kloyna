@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combined Page</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+        }
+        .square {
+            width: 200px;
+            height: 200px;
+            background-color: white;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .rectangle-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-left: 10px;
+        }
+        .rectangle {
+            width: 200px;
+            height: 100px;
+            background-color: white;
+            border: 2px solid black;
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <p>1. На главной странице проекта выберите пункт "Текстовая страница" в меню добавления ресурса.</p>
+    <p>2. Вы перейдёте на страницу с названием "Добавить Ресурс в ...".</p>
+    <p>3. В разделе "Основные" необходимо ввести название страницы. Оно должно быть осмысленным, так как будет использовано для текста ссылки. Добавьте описание (необязательно), отображаемое на странице ресурсов курса.</p>
+    <div class="container">
+        <div class="square">2</div>
+        <div class="rectangle-container">
+            <div class="rectangle">1</div>
+            <div class="rectangle">3</div>
+        </div>
+    </div>
+</body>
+</html>
